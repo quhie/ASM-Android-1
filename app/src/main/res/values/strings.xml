@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">ASM</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!--    Welcome screen title and des-->
+    <string name="title_1">Title 1</string>
+    <string name="des_1">Des 1</string>
+    <string name="title_2">Title 2</string>
+    <string name="des_2">Des 2</string>
+    <string name="title_3">Title 3</string>
+    <string name="des_3">Des 3</string>
+    <string name="title_4">Title 4</string>
+    <string name="des_4">Des 4</string>
+    <string name="welcome_back">Chào mừng bạn trở lại,</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="user_email">Email...</string>
+    <string name="password">Mật khẩu...</string>
+    <string name="remember_me">Lưu đăng nhập</string>
+    <string name="no_account">Chưa có tài khoản?</string>
+    <string name="signup_now">Đăng ký ngay</string>
+    <string name="login">Đăng nhập</string>
+    <string name="dang_ky">Đăng ký</string>
+    <string name="re_enter_pw">Nhập lại mật khẩu...</string>
+    <string name="already_have_account">Đã có tài khoản?</string>
+    <string name="login_now">Đăng nhập ngay</string>
+
+    <string name="facebook_app_id">118608291241785</string>
+    <string name="fb_login_protocol_scheme">fb118608291241785</string>
+    <string name="facebook_client_token">15e4bfe9451fc78ab04b3068b3772d9f</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="we_will_send_you_an_one_time_password_on_this_mobile_number">We will send you an One Time Password on this mobile number</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="_84">+84 - </string>
+    <string name="_123456789">123456789</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP?</string>
+    <string name="verify">Verify</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="create_an_account">Create an account</string>
+
+
+</resources>

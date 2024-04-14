@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape with rounded corners and color -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#334ffb" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <!-- Add the image (assuming it's a PNG file) -->
+    <item
+        android:drawable="@drawable/sign_up_btn_bg"
+        android:gravity="center"
+        android:top="8dp"
+        android:bottom="8dp"
+        android:left="8dp"
+        android:right="8dp" />
+</layer-list>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.DetailActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chi Tiết Sản Phẩm"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/detailImage"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/upload_img" />
+
+
+
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/viewPagerMain"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:background="@drawable/rounded_border"-->
+<!--        android:scaleType="fitXY" />-->
+
+
+    <TextView
+
+        android:id="@+id/detailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:text="Title"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:text="Giá Sản Phẩm: "
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginBottom="5dp"
+        />
+
+
+    <TextView
+        android:id="@+id/detailGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:paddingStart="20dp"
+        android:padding="10dp"
+        android:text="Giá"
+        android:textColor="#ff0000"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:gravity="start"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:text="Mô Tả: "
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:gravity="start"
+        />
+
+    <TextView
+        android:id="@+id/detailDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:text="Description"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:gravity="start"
+        />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            app:menu_colorNormal="#428afa"
+            app:menu_colorPressed="@color/green"
+            app:menu_fab_size="normal"
+            app:menu_openDirection="up"
+            app:menu_showShadow="true">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/editButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit"
+                app:fab_colorNormal="#4DCEF2"
+                app:fab_showShadow="true"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/deleteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit_delete_24"
+                app:fab_colorNormal="@color/red"
+                app:fab_showShadow="true"
+                app:fab_size="mini" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+    </RelativeLayout>
+
+</LinearLayout>

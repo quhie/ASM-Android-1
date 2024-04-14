@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".RegisActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:elevation="-10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mainbg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/btnCloseReg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/close_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052"
+        tools:ignore="MissingConstraints" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="152dp"
+        android:layout_height="151dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/food2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.05">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Register"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/user_email"
+            android:textColorHint="#999999"
+            app:boxStrokeColor="#44bcf3"
+            app:counterEnabled="true"
+            app:errorTextColor="@android:color/holo_red_light"
+            app:helperText="Nhập email của bạn *"
+            app:helperTextTextColor="#3A3A3A">
+
+            <EditText
+                android:id="@+id/edtRegEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/email_24"
+                android:drawablePadding="5dp"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="20dp"
+            android:hint="Nhập mật khẩu *"
+            android:textColorHint="#999999"
+            app:boxStrokeColor="#44bcf3"
+            app:counterEnabled="true"
+            app:endIconMode="password_toggle"
+            app:helperText="Ít nhất 6 ký tự, gồm A-Z, a-z, 0-9 *"
+            app:helperTextTextColor="#3A3A3A">
+
+            <EditText
+                android:id="@+id/edtPwReg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:backgroundTint="#2DC653"
+                android:drawableStart="@drawable/password_24"
+                android:drawablePadding="5dp"
+                android:foregroundTint="#2DC653"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:textColor="#3A3A3A"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="20dp"
+            android:hint="Xác nhận mật khẩu *"
+            android:textColorHint="#999999"
+            app:boxStrokeColor="#44bcf3"
+            app:counterEnabled="true"
+            app:endIconMode="password_toggle"
+            app:helperText="Nhập lại mật khẩu *"
+            app:helperTextTextColor="#3A3A3A">
+
+            <EditText
+                android:id="@+id/edtPwReg2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:backgroundTint="#2DC653"
+                android:drawableStart="@drawable/password_24"
+                android:drawablePadding="5dp"
+                android:foregroundTint="#2DC653"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:textColor="#3A3A3A"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/header_background"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/btnText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="end"
+                android:text="Register"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/btnAnimation"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:lottie_autoPlay="false"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/load" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="@string/create_an_account"
+            android:textColor="#343434"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

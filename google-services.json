@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "36690146745",
+    "firebase_url": "https://asmandroid2-default-rtdb.firebaseio.com",
+    "project_id": "asmandroid2",
+    "storage_bucket": "asmandroid2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36690146745:android:c34105af4aa109470db268",
+        "android_client_info": {
+          "package_name": "com.example.asm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36690146745-utuarf7m1o99q5qesp41kl3pkvg2mdrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asm",
+            "certificate_hash": "0d2ca53b2e0a48e1a738584e17922ba22823d155"
+          }
+        },
+        {
+          "client_id": "36690146745-6dkpuuflt16diumbrq5jb3a47ii8otiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqUpkjq4yRA0t0T4LHHCB-EeZx_6s30Oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36690146745-1tb8gnrkvd0uuuultsdkgcnoljgv5tp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

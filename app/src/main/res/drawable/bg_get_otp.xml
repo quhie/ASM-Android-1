@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#428afa" />
+            <corners android:radius="30dp" />
+        </shape>
+    </item>
+    <item>
+        <!-- Đặt tên hình ảnh của bạn vào đây -->
+        <bitmap
+            android:src="@drawable/get_opt"
+            android:gravity="center"
+            android:width="100dp"
+            android:height="60dp"
+            />
+    </item>
+</layer-list>

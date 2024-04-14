@@ -1,0 +1,40 @@
+<resources>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Các thuộc tính style khác -->
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="CustomRatingBar" parent="Widget.AppCompat.RatingBar">
+        <!-- Đặt kích thước của RatingBar -->
+        <item name="android:layout_width">15dp</item>
+        <item name="android:layout_height">15dp</item>
+
+        <!-- Đặt số sao (số lượng sao) -->
+        <item name="android:numStars">5</item>
+
+        <!-- Đặt bước đánh giá (step size) -->
+        <item name="android:stepSize">0.5</item>
+
+        <!-- Đặt màu sắc cho sao đánh giá -->
+        <item name="android:progressTint">@color/custom_rating_color</item>
+
+        <!-- Đặt màu sắc cho sao chưa được đánh giá -->
+        <item name="android:progressBackgroundTint">@color/custom_rating_unfilled_color</item>
+
+        <!-- Đặt màu sắc cho sao khi có chỉ số điểm (ví dụ: điểm 3.5) -->
+        <item name="android:secondaryProgressTint">@color/custom_rating_color</item>
+
+
+    </style>
+
+    <style name="NavigationViewTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorControlNormal">
+            @color/white
+        </item>   <!-- Thiết lập màu cho icon -->
+    </style>
+
+
+
+
+
+</resources>

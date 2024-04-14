@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Cart">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:tabGravity="fill"
+        android:background="@drawable/rounded_border"
+        app:tabIndicatorColor="#2743FD"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#2743FD"
+        app:tabTextColor="#B6BFFF"
+        tools:ignore="MissingConstraints" />
+
+
+    <!-- Thêm ViewPager2 -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tablayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+</FrameLayout>
